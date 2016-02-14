@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />
+  <link rel="stylesheet" href='/stylesheets/font-awesome.min.css'>
+  <link rel='stylesheet' href='/stylesheets/hulk.css' />
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Hulk Dashboard</h1>
+    <hr class="divider">
+
+    <div class="row">
+      <div class="col-md-12">
+        <h2>CONFIGURE YOUR REST API</h2><br>
+        <label for="endpoint">REST API ENDPOINT:</label>
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon3">/</span>
+            <input type="text" class="form-control" placeholder="endpoint" name="endpoint" id="endpoint">
+        </div>
+      </div>
+
+      <div class="col-md-12" id="smashBtn">
+        <button class="btn btn-lg btn-primary pull-right">Hulk Smash!</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/javascripts/jquery.min.js"></script>
+  <script src="/javascripts/bootstrap.min.js"></script>
+  <script src="/javascripts/hulk.js"></script>
+</body>
+
 </html>
