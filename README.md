@@ -8,7 +8,7 @@ You can smash the hulk using following command in your terminal :<br><br>
 <b>cd hulk_directory<br>
 node app.js<br>
 </b><br>
-It will start the hulk server on Port 3000
+It will start the hulk server on Port 3000 or Process ENV
 <br>
 <i>
 I'm seeking for the contribution. you can contact me on twitter @ntabhishek so that we can build this awesome tool together.
