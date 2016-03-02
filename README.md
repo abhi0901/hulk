@@ -3,7 +3,7 @@
 <b>
 Anyone can create & manage REST APIs so easily using powerful hulk dashboard.<br></b>
 <br>
-Hulk is build upon Express.js & Node.js.
+Hulk is build upon Express & Node.js.
 You can smash the hulk using following command in your terminal :<br><br>
 <b>cd hulk_directory<br>
 node app.js<br>
